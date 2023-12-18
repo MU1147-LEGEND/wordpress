@@ -1,0 +1,168 @@
+2023-12-13T17:09:03+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:09:24+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\update.php(16): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:09:26+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\plugin-install.php(16): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:09:28+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:09:28+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:09:33+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:45:10+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
+2023-12-13T17:45:13+00:00 CRITICAL Uncaught Error: Call to undefined method Elementor\Utils::is_ajax() in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php:33
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\module.php(176): ElementorPro\Modules\Forms\Classes\Ajax_Handler::is_form_submitted()
+#1 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\module.php(85): ElementorPro\Modules\Forms\Module->__construct()
+#2 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\includes\modules-manager.php(58): Elementor\Core\Base\Module::instance()
+#3 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\plugin.php(319): ElementorPro\Manager->__construct()
+#4 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init('')
+#5 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Elementor\Plugin->init('')
+#9 D:\Xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 D:\Xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\Xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#12 D:\Xampp\htdocs\wordpress\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#13 D:\Xampp\htdocs\wordpress\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#14 D:\Xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#15 D:\Xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#16 {main}
+  thrown in D:\Xampp\htdocs\wordpress\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php on line 33
+
