@@ -4622,7 +4622,7 @@ function wp_json_file_decode( $filename, $options = array() ) {
  * @param string $url URL for the home location.
  * @return string Homepage location.
  */
-function _config_wp_home( $url = 'http://192.168.31.209' ) {
+function _config_wp_home( $url = 'https://mu1147-legend.github.io/wordpress/' ) {
 	if ( defined( 'WP_HOME' ) ) {
 		return untrailingslashit( WP_HOME );
 	}
